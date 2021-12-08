@@ -23,12 +23,12 @@ You will need the TOKEN to connect to `ghcr.io` and be logged on the docker cont
 
 After a succesfully login, you need to build and push the new image (assuming you change something):
 
-`./build-push.sh` this will build and push as latest version.
-`./build-push.sh 1.0.0` this will build and push as version `1.0.0` and latest.
+- `./build-push.sh` this will build and push as latest version.
+- `./build-push.sh 1.0.0` this will build and push as version `1.0.0` and latest.
 
 More information: https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
 
 ## Pulling image
 
-`./pull.sh` will pull the latest version.
-`./pull.sh 5.0.0` will pull the version `5.0.0`.
+- `./pull.sh` will pull the latest version.
+- `./pull.sh 5.0.0` will pull the version `5.0.0`.
